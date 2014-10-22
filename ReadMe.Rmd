@@ -4,7 +4,7 @@ author: "Ben"
 date: "Wednesday, October 22, 2014"
 output: html_document
 ---
-Information on our run_analysis.R:
+Information on my run_analysis.R:
 ======================================
 
 run_analysis.R used datasets from www.smartlab.ws to create a tidy dataset. The run_analysis.R first loads test and training datasets from SmartLabs, and then those datasets are merged into a single dataset. Measurements that are mean and standard deviation of the original signal from the merged dataset is extracted to form a subset of dataset with 10299 observations and 81 variables (79 feature variables + subject + activity). A tidy dataset is obtained by taking an average of the aforementioned extracted data based on different combination of subject and activity. The tidy dataset is saved into a variable "Xy_by_group".
